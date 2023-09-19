@@ -178,7 +178,7 @@ void VulkanAppBase::initializeInstance(const char* appName)
     // デバッグビルド時には検証レイヤーを有効化
     const char* layers[] = { "VK_LAYER_KHRONOS_validation" };
     if (VK_HEADER_VERSION_COMPLETE < VK_MAKE_VERSION(1, 1, 106)) {
-        // "VK_LAYER_LUNARG_standard_validation" は廃止になっているが昔の Vulkan SDK では動くので対処しておく.
+        // "VK_LAYER_LUNARG_standard_validation" 動くことがあるので、一応・・・
         layers[0] = "VK_LAYER_LUNARG_standard_validation";
     }
     ci.enabledLayerCount = 1;

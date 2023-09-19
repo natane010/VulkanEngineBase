@@ -293,6 +293,7 @@ void CubeApp::prepareUniformBuffers()
         v = createBuffer(sizeof(ShaderParameters), VK_BUFFER_USAGE_UNIFORM_BUFFER_BIT, uboFlags);
     }
 }
+
 void CubeApp::prepareDescriptorSetLayout()
 {
     vector<VkDescriptorSetLayoutBinding> bindings;

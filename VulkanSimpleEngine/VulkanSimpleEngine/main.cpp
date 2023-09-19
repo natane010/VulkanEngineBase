@@ -7,12 +7,12 @@
 #include <sstream>
 #include <numeric>
 
-//#include "vkappbase.h"
+    //#include "vkappbase.h"
 #include "CubeApp.h"
 
 #pragma comment(lib, "vulkan-1.lib")
 
-const int WindowWidth = 1280, WindowHeight = 720;
+const int WindowWidth = 1280, WindowHeight = 920;
 const char* AppTitle = "VulkanBase";
 
 int __stdcall wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, int nCmdShow)
@@ -25,7 +25,7 @@ int __stdcall wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCm
     auto window = glfwCreateWindow(WindowWidth, WindowHeight, AppTitle, nullptr, nullptr);
 
     // Vulkan èâä˙âª
-    //VulkanAppBase theApp;
+        //VulkanAppBase theApp;
     CubeApp theApp;
     theApp.initialize(window, AppTitle);
 

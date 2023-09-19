@@ -1,3 +1,10 @@
+# File
+/VulkanSimpleEngine/packages/
+/VulkanSimpleEngine/.vs/
+/VulkanSimpleEngine/x64/
+/VulkanSimpleEngine/VulkanSimpleEngine/x64/
+
+
 # Prerequisites
 *.d
 

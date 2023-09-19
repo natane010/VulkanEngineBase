@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CubeApp.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="vkappbase.cpp" />
   </ItemGroup>
@@ -136,6 +137,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CubeApp.h" />
     <ClInclude Include="vkappbase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
